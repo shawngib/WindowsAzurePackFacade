@@ -77,6 +77,9 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="PowerShellSamples\Sample_PS_Get_AdminToken.ps1" />
+    <None Include="PowerShellSamples\Sample_PS_Get_TenantToken.ps1" />
+    <None Include="PowerShellSamples\Sample_PS_Test_Tenant_API_Calls.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
